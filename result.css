@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
+/* Reset browser default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+body{
+    background-color: white;
+}
+main{
+    max-width: 1290px;
+    margin: 50px auto;
+}
+#card{
+    max-width: 600px;
+    margin: auto;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+#card div{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    border: 5px solid green;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#card div i{
+    font-size: 42px;
+    color: green;
+    position: absolute;
+    top:20%;
+    left:25%;
+
+}
+
+h1, h6{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#back-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#back-container a{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+#back-container a:hover{
+    background-color: #870404;  
+}
+
